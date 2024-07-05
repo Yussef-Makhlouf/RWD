@@ -397,7 +397,7 @@
   }
   .articleCards {
     padding: 20px;
-    width: 85%;
+    width: 100%;
     margin: auto;
   }
   .articleCards .article {
@@ -451,7 +451,7 @@
     transform: scale(1.2);
   }
   .footer .footerLinks {
-    display: flex;
+    display: grid;
     gap:30px;
     justify-content: center;
     align-items: center;
