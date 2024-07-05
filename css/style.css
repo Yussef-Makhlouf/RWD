@@ -303,7 +303,7 @@ nav {
   .footer .footerLinks{
     display: flex;
     gap: 200px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
 

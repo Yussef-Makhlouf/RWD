@@ -397,13 +397,14 @@
   }
   .articleCards {
     padding: 20px;
-    width: 60%;
+    width: 85%;
     margin: auto;
   }
   .articleCards .article {
     grid-template-columns: 1fr;
     grid-gap: 35px;
     padding: 25px;
+    width: 100%;
   }
 
   .articleCards .article h1 {
@@ -451,7 +452,7 @@
   }
   .footer .footerLinks {
     display: flex;
-    gap: 200px;
+    gap:30px;
     justify-content: center;
     align-items: center;
 
