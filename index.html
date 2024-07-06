@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-       
+
     <title>Easy Bank</title>
 
 </head>
@@ -21,10 +21,19 @@
 <body>
     <div class="header">
 
+
         <nav>
+
             <button class="menu-btn">
-                <span class="menu-btn__icon"></span>
-              </button>
+
+
+                <span class="menu-btn__burger">
+                    <img src="assets/icon-hamburger.svg" alt="">
+
+                </span>
+
+
+            </button>
             <img src="assets/logo.svg" alt="logo">
 
             <ul class="navUl">
@@ -40,8 +49,8 @@
         </nav>
     </div>
     <div class="container">
-    
-    
+
+
 
         <div class="mainSection">
             <div class="mainText">
@@ -176,30 +185,29 @@
                 </div>
                 <p>© Easybank. All Rights Reserved</p>
                 <button class="btn">Request Invite</button>
-              
+
             </div>
 
         </footer>
 
     </div>
-    
-        <script src="js/index.js"></script>
-        <script>
-            const menuBtn = document.querySelector('.menu-btn');
-            const navUl = document.querySelector('.navUl');
-          
-            menuBtn.addEventListener('click', () => {
-              navUl.classList.toggle('show');
-            });
-          
-            window.addEventListener('resize', () => {
-              if (window.innerWidth > 768) {
+
+    <script src="js/index.js"></script>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navUl = document.querySelector('.navUl');
+
+        menuBtn.addEventListener('click', () => {
+            navUl.classList.toggle('show');
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
                 navUl.classList.remove('show');
-              }
-            });
-            
-          </script>
+            }
+        });
+
+    </script>
 </body>
 
-</html> 
-
+</html>
