@@ -191,6 +191,13 @@
             menuBtn.addEventListener('click', () => {
               navUl.classList.toggle('show');
             });
+          
+            window.addEventListener('resize', () => {
+              if (window.innerWidth > 768) {
+                navUl.classList.remove('show');
+              }
+            });
+            
           </script>
 </body>
 

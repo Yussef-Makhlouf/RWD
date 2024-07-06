@@ -390,6 +390,9 @@
 
   .header .menu-button {
     display: block;
+    background-color: red;
+    border: none;
+    cursor: pointer;
   }
 
   .header .menu-button:active {
@@ -412,8 +415,8 @@
     max-width: 300px;
     padding: 20px 0;
     margin: auto;
+    
   }
-
 
   .articleCards .article p {
     font-size: 20px;
@@ -422,9 +425,17 @@
     padding: 20px 0;
     margin: auto;
   }
+  .article .articleCard .articleText h2{
+    font-size: 20px;
+    max-width: 340px;
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+  }
 .article .articleCards .articleImg img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
   .footer {
@@ -461,6 +472,49 @@
     justify-content: center;
     align-items: center;
 
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .footer .footerLinks {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .btn{
+    width: 60%;
+    padding: 10px;
+    
+  }
+  .article .articleCard .articleText h2{
+    font-size: 20px;
+    max-width: 340px;
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+  }
+  .article .articleCards .articleImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .article .articleCard .articleText p{
+    font-size: 20px;
+    max-width: 340px;
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+  }
+  .article .articleCard .articleText h4{
+    font-size: 20px;
+    max-width: 340px;
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+  }
+  .article{
+    width: 100%;
   }
 
 }
