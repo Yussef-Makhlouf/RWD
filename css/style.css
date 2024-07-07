@@ -8,8 +8,7 @@
   list-style: none;
   outline: none;
   border: none;
-  overflow-x: hidden;
-margin: auto;
+  
 }
 
 :root {
@@ -153,16 +152,18 @@ nav {
   font-size: 30px;
   font-weight: 400;
   color: var(--darkBlue);
-  text-align: left;
+  text-align: center;
   padding-bottom: 20px;
 }
-.text {
+.secundSection .text {
   font-size: 16px;
   font-weight: 400;
   color: var(--grayishBlue);
   line-height: 1.5;
   max-width: 540px;
   padding-bottom: 50px;
+  text-align: center;  
+  margin: auto;
 }
 .secundSection .cards {
   /* display: flex;

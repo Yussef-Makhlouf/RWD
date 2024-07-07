@@ -179,7 +179,7 @@
   
   }
   
-  @media screen and (max-width: 992px)  {
+  @media screen and (max-width: 992px) {
  
   body {
     width: 100%;
@@ -252,7 +252,7 @@
     padding: 10px 20px;
   }
   .secundSection .cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     padding: 20px;
   }
@@ -264,7 +264,6 @@
   
   .secundSection h1 {
     font-size: 50px;
-    max-width: 300px;
     padding: 20px 0;
     margin: auto;
   }
@@ -284,15 +283,15 @@
   }
 
   .articleCards {
-    width: 100%;
+    width: 80%;
     margin: auto;
   }
   .articleCards .article {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 35px;
     padding: 25px;
   }
-  
+
   .articleCards .article h1 {
     font-size: 50px;
     max-width: 300px;
@@ -341,8 +340,7 @@
   gap: 200px;
   justify-content: center;
   align-items: center;
-  
-  
+
   }
   
   .footer .footerLinks .footerUl li a {
