@@ -1,520 +1,187 @@
-@media screen and (max-width: 1300px) {
-    body {
-        width: 100%;
-        font-size: 16px;
-        font-family: "Public Sans", sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .mainSection .mainText .btn {
-        padding: 10px 20px;
-    }
-    .secundSection .cards {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-        padding: 20px;
-    }
-    .secundSection h1,p{
-        text-align: center;
-        padding: 20px;
-        width: 100%;
-        margin: auto;
-    
-    }
-    .secundSection .cards .card p{
-        font-size: 20px;
-        max-width: 340px;
-        padding: 20px 0;
-        text-align: center;
-    }
-
-    .article{
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 30px;
-        padding: 30px;
-        text-align: left;
-      }
-      .articleCard{
-        border:none;
-        border-radius: 5px;
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
-
-      }
-      .articleCard .articleImg img{
-        width: 100%;
-        height: 300px;
-        object-position: center;
-        object-fit: cover;
-        border-radius: 5px 5px 0 0;
-      }
-      .articleCard .articleText h4{
-        padding-top: 10px;
-        color: var(--grayishBlue);
-      }
-      .articleCard .articleText p{
-        font-size: 20px;
-        color: var(--grayishBlue);
-        text-align: left;
-        line-height: 1.5;    
-      } 
-      
-
-}
-
-
-
-    
-
-@media screen and (max-width: 1024px) {
-    body {
-        width: 100%;
-        font-size: 16px;
-        font-family: "Public Sans", sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    /* .header .navUl {
-        display: flex;
-
-    }
-
-    .header .navUl li {
-        padding: 10px;
-        font-weight: 600;
-        cursor: pointer;
-    } */
-
-    .mainSection .mainText .btn {
-        padding: 10px 20px;
-    }
-    .secundSection .cards {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-        padding: 20px;
-    }
-.secundSection h1,p{
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    margin: auto;
-
-}
-/* 
-    .secundSection h1 {
-        font-size: 50px;
-        max-width: 300px;
-        padding: 20px 0;
-        margin: auto;
-    }
-    .secundSection p {
-        font-size: 25px;
-        max-width: 300px;
-        padding: 20px 0;
-        margin: auto;
-        text-align: center;
-    } */
-    .secundSection .cards .card p{
-        font-size: 20px;
-        max-width: 340px;
-        padding: 20px 0;
-        text-align: center;
-    }
-    .articleCards {
-        padding: 50px ;
-    }
-
-    .articleCards h1 {
-        font-size: 30px;
-        font-weight: 400;
-        color: var(--darkBlue);
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    .article {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 30px;
-        padding: 30px;
-        text-align: left;
-    }
-    .articleCard {
-        text-align: center;
-        border: none;
-    }
-
-    .articleCard h3 {
-        font-size: 25px;
-    }
-
-    .articleCard p {
-        font-size: 20px;
-    }
-
-    .articleCard img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .articleCard:hover {
-        background-color: var(--veryLightGray);
-        color: #fff;
-    }
-    .articleCard h2{
-        text-align:left;
-    }
-
-    .footer {
-        padding: 50px 0;
-    }
-
-    .footer .logo {
-        width: 100px;
-        height: 40px;
-    }
-
-    .footer .footerUl li {
-        padding: 10px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.2s linear;
-    }
-
- 
-
-}
-
 @media screen and (max-width: 768px) {
-  body {
-    width: 100%;
-    font-size: 16px;
-    font-family: "Public Sans", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .header .navUl {
+  .header .btn{
     display: none;
   }
-
-  .header .navUl li {
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s linear;
+  nav{
+    padding: 23px;
+    text-align: center;
   }
-
-  .header .menu-button {
+  .header nav img{
+    position: absolute;
+  }
+  .navUl{
+    display: none;
+  }
+  .menu-btn {
     display: block;
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
   }
-  /* 
-  .header .menu-button:hover {
-    color: var(--limeGreen);
-  }
-
-  .header .menu-button:active {
-    color: var(--limeGreen);
-  }
-
-  .header .menu-button:focus {
-    color: var(--limeGreen);
-  }
-
-  .header .menu-button:active {
-    color: var(--limeGreen);
-  } */
-
-  .header .btn {
-    display: none;
-  }
-
-  .mainSection .imageSection {
-    background-image: url(../assets/bg-intro-mobile.svg);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .mainSection .mainText {
-    width: 100%;
-  }
-  .mainSection {
+  .mainSection{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: center;
-    padding: 0px;
+    text-align: center;
   }
 
-  .mainSection .imageSection img {
+  .mainText{
+    text-align: center;
+
+  }
+  .mainText h1{
+    font-size: 30px;
+  }
+  .imageSection{
     width: 100%;
   }
-
-  .mainSection .mainText {
-    padding: 40px 20px;
-    text-align: center;
-  }
-
-  .mainSection .mainText h1 {
-    font-size: 50px;
-    max-width: 450px;
-    margin: auto;
-  }
-
-  .mainSection .mainText p {
-    font-size: 20px;
-    max-width: 360px;
-    text-align: center;
-    padding: 20px 0;
-    margin: auto;
-  }
-
-  .mainSection .mainText .btn {
-    padding: 10px 20px;
-  }
-  .secundSection .cards {
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    padding: 20px;
-  }
-  .secundSection {
-    text-align: center;
-    padding: 20px;
+  .imageSection img{
     width: 100%;
   }
-
-  .secundSection h1 {
-    font-size: 50px;
-    max-width: 300px;
-    padding: 20px 0;
-    margin: auto;
-  }
-  .secundSection p {
-    font-size: 20px;
-    max-width: 360px;
-    text-align: center;
-    padding: 20px 0;
-    margin: auto;
-  }
-
-  .secundSection .cards .card p {
-    font-size: 16px;
-    text-align: center;
-    margin: auto;
-    padding: 20px 0;
-  }
-
-  .articleCards {
-    padding: 20px;
-    width: 60%;
-    margin: auto;
-  }
-  .articleCards .article {
-    grid-template-columns: 1fr;
-    grid-gap: 35px;
-    padding: 25px;
-  }
-
-  .articleCards .article h1 {
-    font-size: 50px;
-    max-width: 300px;
-    padding: 20px 0;
-    margin: auto;
-  }
-
-  .articleCards .article p {
-    font-size: 20px;
-    max-width: 360px;
-    text-align: center;
-    padding: 20px 0;
-    margin: auto;
-  }
-
-.footer {
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  margin: auto;
+.secundSection{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
+  text-align: center;
 }
-.footer p {
-  font-size: 20px;
-  font-weight: 400;
+.secundSection .cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+}
+.secundSection .cards .card p{
+  text-align: center;
+}
+
+.article{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+}
+.articleCard .articleText p{
+  padding-top: 10px;
   color: var(--grayishBlue);
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
+  max-width: 540px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.articleCard .articleText h3{
+  padding: 10px;
+  color: var(--darkBlue);
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+.footer .footerLinks {
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 30px;
+padding: 50px;
+text-align: center;
+}
+.footer .footerLogo {
   text-align: center;
 }
 .footer .social {
   padding-top: 20px;
-}
-.footer .social img {
-  padding-right: 10px;
-}
-.footer .social img:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-.footer .footerLinks {
-  display: flex;
-  gap: 200px;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-.footer .footerLinks .footerUl li a {
-  color: var(--grayishBlue);
-  padding: 10px 0;
-  display: block;
   text-align: center;
 }
+.footer p{
+  text-align: center;
 }
-@media screen and (max-width: 768px) {
-  .navUl {
+.footer .btn{
+  text-align: center;
+  margin-top: 20px;
+  width: 50%;
+}
+
+}
+@media screen and (max-width: 480px) {
+  .header .btn{
     display: none;
   }
-
-  .header button {
-    display: block;
-  }
-
-  .header .menu-button {
-    display: block;
-    background-color: red;
-    border: none;
-    cursor: pointer;
-  }
-
-  .header .menu-button:active {
-    color: var(--limeGreen);
-  }
-  .articleCards {
-    padding: 20px;
-    width: 100%;
-    margin: auto;
-  }
-  .articleCards .article {
-    grid-template-columns: 1fr;
-    grid-gap: 35px;
-    padding: 25px;
-    width: 100%;
-  }
-
-  .articleCards .article h1 {
-    font-size: 50px;
-    max-width: 300px;
-    padding: 20px 0;
-    margin: auto;
-    
-  }
-
-  .articleCards .article p {
-    font-size: 20px;
-    max-width: 360px;
-    text-align: center;
-    padding: 20px 0;
-    margin: auto;
-  }
-  .article .articleCard .articleText h2{
-    font-size: 20px;
-    max-width: 340px;
-    padding: 20px 0;
-    margin: auto;
+  nav{
+    padding: 23px;
     text-align: center;
   }
-.article .articleCards .articleImg img{
+  .header nav img{
+    position: absolute;
+  }
+
+  .mainText h1{
+    font-size: 25px;
+  }
+  .mainText p{
+    font-size: 16px;
+  }
+
+  .secundSection h1{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .secundSection p{
+    font-size: 16px;
+  }
+
+  .articleCard .articleText p{
+    font-size: 16px;
+  }
+
+  .articleCard .articleText h3{
+    font-size: 18px;
+  }
+  .articleCard .articleText h4{
+    font-size: 16px;
+  }
+.article .articleCards.articleCard{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
-  .footer {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  .footer p {
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--grayishBlue);
-    line-height: 1.5;
+  .footer .footerLogo {
     text-align: center;
   }
   .footer .social {
     padding-top: 20px;
+    text-align: center;
   }
-  .footer .social img {
-    padding-right: 10px;
-  }
-  .footer .social img:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-  }
-  .footer .footerLinks {
-    display: grid;
-    gap:30px;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-}
-@media screen and (max-width: 320px) {
-  .footer .footerLinks {
-    display: grid;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+  .footer p{
+    text-align: center;
   }
   .footer .btn{
+    text-align: center;
+    margin-top: 20px;
     width: 60%;
-    padding: 10px;
-    
   }
-  .article .articleCard .articleText h2{
-    font-size: 20px;
-    max-width: 340px;
-    padding: 20px 0;
-    margin: auto;
+
+  .footer .footerLinks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 50px;
     text-align: center;
   }
-  .article .articleCards .articleImg img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .article .articleCard .articleText p{
-    font-size: 20px;
-    max-width: 340px;
-    padding: 20px 0;
-    margin: auto;
-    text-align: center;
-  }
-  .article .articleCard .articleText h4{
-    font-size: 20px;
-    max-width: 340px;
-    padding: 20px 0;
-    margin: auto;
-    text-align: center;
-  }
-  .article{
+
+
+  
+}
+@media screen and (min-width: 992px )and (max-width: 1200px) {
+  .mainSection .mainText{
     width: 100%;
   }
 
+  .mainSection .mainText .btn{
+    padding: 10px 20px;
+  }
+
+  .mainSection .mainText h1{
+    font-size: 40px;
+  }
+  .mainSection .mainText p{
+    font-size: 20px;
+  }
+
+  
 }

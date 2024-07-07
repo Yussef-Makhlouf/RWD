@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsiveMedia.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <!-- <link rel="stylesheet" href="/css/bootstrap-5.3.3-dist/css/bootstrap-grid.css"> -->
+<!-- <link rel="stylesheet" href="/css/bootstrap-5.3.3-dist/css/bootstrap.css"> -->
+
 
     <title>Easy Bank</title>
 
@@ -21,17 +26,12 @@
 <body>
     <div class="header">
 
-
         <nav>
 
-            <button class="menu-btn">
-
-
-                <span class="menu-btn__burger">
-                    <img src="assets/icon-hamburger.svg" alt="">
-
+            <button class="menu-btn ">
+                <span class="menu-btn-burger ">
+                    
                 </span>
-
 
             </button>
             <img src="assets/logo.svg" alt="logo">
@@ -109,7 +109,7 @@
                     </div>
                     <div class="articleText">
                         <h4>By Claire Robinson</h4>
-                        <h2>Receive money in any currency with no fees</h2>
+                        <h3>Receive money in any currency with no fees</h3>
                         <p>The world is getting smaller and we’re becoming more mobile. So why should you be forced to
                             only Receive</p>
                     </div>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="articleText">
                         <h4>By Wilson Hutton</h4>
-                        <h2>Treat yourself without worrying about money</h2>
+                        <h3>Treat yourself without worrying about money</h3>
                         <p>Our simple budgeting feature allows you to separate out your spending and set realistic
                             limits
                             each month. That means you...</p>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="articleText">
                         <h4>By Wilson Hutton</h4>
-                        <h2>Take your Easybank card wherever you go</h2>
+                        <h3>Take your Easybank card wherever you go</h>
                         <p>We want you to enjoy your travels. This is why we don’t charge any fees on purchases while
                             you’re
                             abroad. We’ll even show you...</p>
@@ -149,7 +149,7 @@
                     <div class="articleText">
 
                         <h4>By Wilson Hutton</h4>
-                        <h2>Take your Easybank card wherever you go</h2>
+                        <h3>Take your Easybank card wherever you go</h3>
                         <p>We want you to enjoy your travels. This is why we don’t charge any fees on purchases while
                             you’re
                             abroad. We’ll even show you...</p>
@@ -193,21 +193,7 @@
     </div>
 
     <script src="js/index.js"></script>
-    <script>
-        const menuBtn = document.querySelector('.menu-btn');
-        const navUl = document.querySelector('.navUl');
 
-        menuBtn.addEventListener('click', () => {
-            navUl.classList.toggle('show');
-        });
-
-        window.addEventListener('resize', () => {
-            if (window.innerWidth > 768) {
-                navUl.classList.remove('show');
-            }
-        });
-
-    </script>
 </body>
 
 </html>
