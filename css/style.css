@@ -3,13 +3,13 @@
   font-family: "Public Sans", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-decoration: none;
   text-transform: capitalize;
   list-style: none;
   outline: none;
   border: none;
-  transition: all 0.2s linear;
+  overflow-x: hidden;
+margin: auto;
 }
 
 :root {
@@ -26,10 +26,7 @@
   --softRed: hsl(0, 87%, 67%);
 }
 body {
-  overflow-x: hidden;
-
-
-
+  width: 100%;
 }
 
 /* header {
@@ -49,9 +46,7 @@ nav {
   align-items: center;
   background-color: var(--veryLightGray);
   padding: 20px 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+
 }
 
 
@@ -83,12 +78,7 @@ nav {
   padding-bottom: 6px;
 }
 
-.header .menu-button {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
+
 
 /* button */
 .btn {
@@ -110,7 +100,6 @@ nav {
 .container {
   max-width: 1440px;
   margin:  auto;
-  padding:  20px;
 }
 .mainSection {
   display: flex;

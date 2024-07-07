@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
   .header .btn{
     display: none;
   }
@@ -98,7 +98,7 @@ text-align: center;
 }
 
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px)and (min-width: 320px) {
   .header .btn{
     display: none;
   }
